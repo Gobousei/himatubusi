@@ -1,2 +1,9 @@
 body{background-image: url(https://thumb.ac-illust.com/d3/d3185cf73a01d7b6f9b39f9e614c5efe_t.jpeg);
 }
+h1{
+  font-size:40px;
+  color:red;
+}
+div{
+font-size:20px;
+}
