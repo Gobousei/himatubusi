@@ -11,11 +11,11 @@
   var cnt = sec;
   var id = setInterval(function(){
     cnt--;
-    document.getElementById('edit_area').innerHTML =  Math.floor(  cnt/60  );
+    document.getElementById('edit_area').innerHTML =  Math.floor(cnt);
 
     // 現在日時と終了日時を比較
     dt = new Date();
     if(dt.getTime() >= endDt.getTime()){
-    window.open('http://htmlpreview.github.io/?https://github.com/Gobousei/himatubusi/blob/main/index.html');
+      location.href = "https://www.google.com";
     }
-  }
+  }, 1000);
