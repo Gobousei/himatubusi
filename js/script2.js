@@ -1,4 +1,4 @@
-  var sec = 394863856734984;
+  var sec = ;
  
   // 開始日時を設定
   var dt = new Date();
@@ -16,6 +16,6 @@
     // 現在日時と終了日時を比較
     dt = new Date();
     if(dt.getTime() >= endDt.getTime()){
-      location.href = "https://www.google.com";
+      location.href = "http://htmlpreview.github.io/?https://github.com/Gobousei/himatubusi/blob/main/index.html";
     }
   }, 1000);
