@@ -1,4 +1,4 @@
-  var sec = 5;
+  var sec = 394863856734984;
  
   // 開始日時を設定
   var dt = new Date();
